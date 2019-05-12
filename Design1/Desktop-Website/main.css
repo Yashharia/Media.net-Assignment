@@ -1,0 +1,316 @@
+/*------global------*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align:baseline;
+  background: transparent;
+}
+
+html{
+  font-family: Circular Std,sans-serif;
+}
+
+.landing{
+  background-image: url("img/rectangle-12-copy-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  min-height: 800px;
+}
+
+.share{
+  background-image: url("img/rectangle-17.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  min-height: 575px;
+  position: relative;
+}
+
+.share{
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  min-height: 535px;
+  position: relative;
+}
+
+p{
+  object-fit: contain;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9f9f9f;
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.continuebtn{
+  display: inline-block;
+  border-radius: 100px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-size: 30px;
+  width: 360px;
+  height: 76px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.continuebtn:hover{
+  background-color: #4CAF50; 
+  color: white;
+}
+
+a{
+  text-decoration: none;
+   object-fit: contain;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  vertical-align: middle;
+}
+/*------Landing------*/
+
+.nav{
+  padding-top: 3em;
+}
+
+.chromebutton{
+  float: right;
+  text-align: right;
+}
+
+.logo{
+  width: 162px;
+  vertical-align: middle;
+}
+
+.landingwrapper{
+  width:88%;
+  margin:auto;
+}
+
+.landingcontent{
+  width: 88%;
+  margin: 150px auto 0 auto;
+  display: flex;
+}
+
+.contentmiddle{
+  position: absolute;
+  top: 29.5%;
+  left: 28.1%;
+  right: 27.8%;
+}
+
+.contentmiddleleft{
+  position: absolute;
+ 
+}
+
+.contentmiddle > .contentmiddleright{
+  margin-left: 50%;
+
+}
+
+/*------below nav-----*/
+.team{
+  margin-top: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 0 20%;
+}
+
+.members{
+  display: flex;
+  justify-content: center;
+}
+
+.person{
+  margin: 55% 80px;
+  bottom: 80px;
+}
+
+
+/*------share------*/
+
+.sharebookmark{
+  
+  width: 88%;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 19%;
+}
+
+.Share-or-Bookmark-News-Articles{
+ 
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.rightphoto{
+  margin-top: 10%;
+  margin:-10% 50%;
+}
+
+
+
+/*------Group------*/
+.groupswrapper{
+  width: 88%;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 19%;
+}
+
+.groupscontent{
+  width: 88%
+  margin:20% auto 0 auto;
+  display: flex;
+}
+
+.leftcontent img, .leftcontent h5,.leftcontent a,.leftcontent p{
+margin-bottom: 10px;
+width: 418px
+}
+
+.rightcontent img, .rightcontent h5, .rightcontent p,.rightcontent a{
+margin-left: 30px;
+margin-bottom: 10px;
+width: 418px
+}
+
+
+h5{
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.buttonOne{
+  width: 195px;
+  height: 52px;
+background-color: white;
+  color: black;
+  border: 2px solid #ea7141;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  border-radius: 100px;
+}
+
+.center img{
+  margin: 10% 30%;
+  text-align: center;
+}
+
+.center h5{
+
+}
+
+
+
+/*----------footer-----------*/
+
+.footer{
+  text-align: center;
+  margin: 30px 30%;
+}
+
+.footer p{
+  object-fit: contain;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #33363e;
+
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+} 
